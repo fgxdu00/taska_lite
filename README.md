@@ -1,4 +1,4 @@
-# ✦ DarkTodo
+# ✦ Taska Lite
 
 A minimal, elegant to-do list web application built with vanilla **HTML**, **CSS**, and **JavaScript**.  
 Designed with a clean dark theme and focused on simplicity, speed, and offline persistence using `localStorage`.

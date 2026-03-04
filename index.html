@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taska Lite</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container">
-        <h1>Taska Lite</h1>
-
-        <div class="input-area">
-            <input type="text" id="task-input" placeholder="Enter a task...">
-            <button id="add-btn">Add</button>
+    <div class="sticky-top">
+        <div class="container">
+            <h1 class="title">Taska Lite</h1>
+            <div class="input-row">
+                <input type="text" id="task-input" placeholder="Add a new task..." maxlength="200" autocomplete="off">
+                <button id="add-btn">Add</button>
+            </div>
         </div>
+    </div>
 
+    <div class="container">
         <ul id="task-list"></ul>
+        <p id="empty-msg">No tasks yet. Add one above.</p>
     </div>
 
     <script src="app.js"></script>

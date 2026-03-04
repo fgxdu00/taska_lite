@@ -27,7 +27,7 @@ function addTask() {
         done: false
     };
 
-    tasks.push(task);
+    tasks.unshift(task);
     saveTasks();
     renderTasks();
 
